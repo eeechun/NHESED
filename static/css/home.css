@@ -1,6 +1,7 @@
 a.nav-link{
     color: white;
     font-size: larger;
+    font-family: monospace;
     padding: 0.6em;
 }
 li.navbar-brand > a.nav-link:hover {

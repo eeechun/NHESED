@@ -1,6 +1,7 @@
 a.nav-link{
     color: white;
-    font-size: larger;
+    font-size: large;
+    font-family: monospace;
 }
 a.nav-link.active {
     color: black;
