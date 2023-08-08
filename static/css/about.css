@@ -1,0 +1,12 @@
+a.nav-link{
+    color: white;
+    font-size: larger;
+}
+a.nav-link.active {
+    color: black;
+}
+
+li.navbar-brand > a.nav-link:hover {
+    background-color: white;
+    color: rgb(249, 181, 158);
+}
