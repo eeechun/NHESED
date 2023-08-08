@@ -1,0 +1,24 @@
+a.nav-link{
+    color: white;
+    font-size: larger;
+    padding: 0.6em;
+}
+li.navbar-brand > a.nav-link:hover {
+    background-color: white;
+    color: rgb(249, 181, 158);
+}
+.navbar .navbar-brand{
+    padding: 0 0.6em;
+}
+@media only screen and (min-width: 992px) {
+    .navbar {
+      padding: 0;
+    }
+    li.navbar-brand > a.nav-link {
+      padding: 1em 0.7em;
+      transition: all 0.5s;
+    }
+    .navbar .navbar-brand {
+      padding: 0 0.8em;
+    }
+}
