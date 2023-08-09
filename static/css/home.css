@@ -1,15 +1,30 @@
-a.nav-link{
-    color: white;
-    font-size: larger;
-    font-family: monospace;
-    padding: 0.6em;
+.bg-img {
+  width: 100vw;
+  height: 100vh;
+  position: static;
+  object-fit: cover;
+  top: 0;
+  left: 0;
+  filter: brightness(0.7);
 }
+
+/* Color of the links BEFORE scroll */
+.navbar-scroll .nav-link,
+.navbar-scroll .navbar-toggler .navbar-toggler-icon {
+  color: #fff;
+  font-size: larger;
+  font-family: monospace;
+  padding: 0 0.6em;
+}
+
+.navbar-scrolled {
+  background-color: rgb(249, 181, 158);
+  box-shadow: 0 3px 10px rgb(249, 181, 158);
+}
+
 li.navbar-brand > a.nav-link:hover {
     background-color: white;
     color: rgb(249, 181, 158);
-}
-.navbar .navbar-brand{
-    padding: 0 0.6em;
 }
 @media only screen and (min-width: 992px) {
     .navbar {
@@ -22,4 +37,24 @@ li.navbar-brand > a.nav-link:hover {
     .navbar .navbar-brand {
       padding: 0 0.8em;
     }
+}
+
+html, body { /*網頁裡面的主體*/
+  display: flex; /*物件定義為彈性*/
+  justify-content: flex-start; /*物件水平置中*/
+  align-items: center;/*物件垂直置中*/
+  flex-wrap: wrap; /*排列自動換行*/
+}
+
+.video1 { 
+  border: 2px; /*加上紅色框框看清楚pic的範圍*/
+  width: 600px;/*框框寬度*/
+  height: 300px;/*框框高度*/
+  display: flex;/*框框內的物件為彈性物件*/
+  justify-content: flex-start;/*框框內的物件水平置中*/
+  align-items: center;/*框框內的物件垂直至中*/
+}
+.video1 iframe { 
+  max-width: 100%; 
+  max-height: 100%; 
 }
