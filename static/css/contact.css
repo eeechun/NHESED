@@ -1,0 +1,13 @@
+a.nav-link{
+    color: white;
+    font-size: large;
+    font-family: monospace;
+}
+a.nav-link.active {
+    color: rgb(140, 129, 122);
+}
+
+li.nav-item > a.nav-link:hover {
+    background-color: white;
+    color: rgb(249, 181, 158);
+}
