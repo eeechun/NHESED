@@ -43,6 +43,19 @@ li.navbar-brand > a.nav-link:hover {
     }
 }
 
+.text-center {
+  background-color: rgb(249, 181, 158);
+  color: #fff;
+  font-size: large;
+  font-family: monospace;
+  width: 100vw;
+}
+.foot-text {
+  color: #fff;
+  font-size: large;
+  font-family: monospace;
+}
+
 html, body { /*網頁裡面的主體*/
   display: flex; /*物件定義為彈性*/
   justify-content: flex-start; /*物件水平置中*/

@@ -1,57 +1,70 @@
 /* backgroung image */
 .bg-img {
-    width: 100vw;
-    height: 100vh;
-    position: static;
-    object-fit: cover;
-    top: 0;
-    left: 0;
-    filter: brightness(0.7);
-  }
-  
-  /* Color of the links before scroll */
-  .navbar-scroll .nav-link,
-  .navbar-scroll .navbar-toggler .navbar-toggler-icon {
-    color: #fff;
-    font-size: larger;
-    font-family: monospace;
-    padding: 0 0.6em;
-  }
-  
-  /* Color of the navbar after scroll */
-  .navbar-scrolled {
-    background-color: rgb(249, 181, 158);
-    color: #fff;
-    font-size: larger;
-    font-family: monospace;
-  }
-  .navbar-scrolled li.navbar-brand > a.nav-link.active {
-      background-color: white;
-      color: rgb(109, 103, 98);
-  }
-  
-  li.navbar-brand > a.nav-link.active {
-      background-color: rgb(109, 103, 98);
-      color: white;
-  }
-  
-  li.navbar-brand > a.nav-link:hover {
-      background-color: white;
-      color: rgb(249, 181, 158);
-  }
-  .navbar{
+  width: 100vw;
+  height: 75vh;
+  position: static;
+  object-fit: cover;
+  top: 0;
+  left: 0;
+  filter: brightness(0.7);
+}
+
+/* Color of the links before scroll */
+.navbar-scroll .nav-link,
+.navbar-scroll .navbar-toggler .navbar-toggler-icon {
+  color: #fff;
+  font-size: larger;
+  font-family: monospace;
+  padding: 0 0.6em;
+}
+
+/* Color of the navbar after scroll */
+.navbar-scrolled {
+  background-color: rgb(249, 181, 158);
+  color: #fff;
+  font-size: larger;
+  font-family: monospace;
+}
+.navbar-scrolled li.navbar-brand > a.nav-link.active {
+    background-color: white;
+    color: rgb(109, 103, 98);
+}
+
+li.navbar-brand > a.nav-link.active {
+    background-color: rgb(109, 103, 98);
+    color: white;
+}
+
+li.navbar-brand > a.nav-link:hover {
+    background-color: white;
+    color: rgb(249, 181, 158);
+}
+.navbar{
+    transition: all 0.5s;
+}
+
+@media only screen and (min-width: 992px) {
+    .navbar {
+      padding: 0;
+    }
+    li.navbar-brand > a.nav-link {
+      padding: 1em 0.7em;
       transition: all 0.5s;
-  }
-  
-  @media only screen and (min-width: 992px) {
-      .navbar {
-        padding: 0;
-      }
-      li.navbar-brand > a.nav-link {
-        padding: 1em 0.7em;
-        transition: all 0.5s;
-      }
-      .navbar .navbar-brand {
-        padding: 0 0.8em;
-      }
-  }
+    }
+    .navbar .navbar-brand {
+      padding: 0 0.8em;
+    }
+}
+
+.text-center {
+  background-color: rgb(249, 181, 158);
+  color: #fff;
+  font-size: large;
+  font-family: monospace;
+  width: 100vw;
+}
+.foot-text {
+  color: #fff;
+  font-size: large;
+  font-family: monospace;
+}

@@ -1,7 +1,7 @@
 /* backgroung image */
 .bg-img {
   width: 100vw;
-  height: 100vh;
+  height: 75vh;
   position: static;
   object-fit: cover;
   top: 0;
@@ -54,4 +54,17 @@ li.navbar-brand > a.nav-link:hover {
     .navbar .navbar-brand {
       padding: 0 0.8em;
     }
+}
+
+.text-center {
+  background-color: rgb(249, 181, 158);
+  color: #fff;
+  font-size: large;
+  font-family: monospace;
+  width: 100vw;
+}
+.foot-text {
+  color: #fff;
+  font-size: large;
+  font-family: monospace;
 }
