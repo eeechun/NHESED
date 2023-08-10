@@ -8,7 +8,7 @@
   filter: brightness(0.7);
 }
 
-/* Color of the links BEFORE scroll */
+/* Color of the links before scroll */
 .navbar-scroll .nav-link,
 .navbar-scroll .navbar-toggler .navbar-toggler-icon {
   color: #fff;
@@ -17,9 +17,13 @@
   padding: 0 0.6em;
 }
 
+/* Color of the navbar after scroll */
 .navbar-scrolled {
   background-color: rgb(249, 181, 158);
-  box-shadow: 0 3px 10px rgb(249, 181, 158);
+  color: #fff;
+  font-size: larger;
+  font-family: monospace;
+  padding: 0 0.6em;
 }
 
 li.navbar-brand > a.nav-link:hover {
