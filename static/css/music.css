@@ -21,6 +21,19 @@
     width: 100%;
     color: #fff
   }
+
+  #ytIcon {
+    position: absolute;
+    top: 425px;
+    left: 45vw;
+  }
+  #spotifyIcon {
+    position: absolute;
+    top: 425px;
+    left: 50vw;
+  }
+
+  
   /* Color of the links before scroll */
   .navbar-scroll .nav-link,
   .navbar-scroll .navbar-toggler .navbar-toggler-icon {
