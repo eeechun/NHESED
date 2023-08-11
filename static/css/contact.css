@@ -21,6 +21,29 @@
     width: 100%;
     color: #fff
   }
+
+  .btn.btn-secondary{
+    position: absolute;
+	  padding: 16px;
+    color: #fff;
+    font-family: monospace;
+	  border-radius: 16px;
+	  bottom: 50px;
+	  left: 47vw;
+	  width: 100px;
+  }
+  
+  .btn.btn-secondary:hover{
+    position: absolute;
+	  padding: 16px;
+	  background-color: none;
+    color: #fff;
+    font-family: monospace;
+	  border-radius: 16px;
+	  bottom: 50px;
+	  left: 47vw;
+	  width: 100px;
+  }
   /* Color of the links before scroll */
   .navbar-scroll .nav-link,
   .navbar-scroll .navbar-toggler .navbar-toggler-icon {
