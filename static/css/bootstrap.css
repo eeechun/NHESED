@@ -2079,6 +2079,7 @@ progress {
   }
 }
 .form-label {
+  font-weight: bold;
   margin-bottom: 0.5rem;
 }
 
@@ -2104,13 +2105,16 @@ progress {
 
 .form-text {
   margin-top: 0.25rem;
+  margin-bottom: 20px;
+  padding-left: 120px;
   font-size: 0.875em;
   color: var(--bs-secondary-color);
 }
 
 .form-control {
   display: block;
-  width: 100%;
+  width: 40%;
+  margin-bottom: 20px;
   padding: 0.375rem 0.75rem;
   font-size: 1rem;
   font-weight: 400;
@@ -2391,6 +2395,8 @@ textarea.form-control-lg {
   width: 1em;
   height: 1em;
   margin-top: 0.25em;
+  margin-bottom: 20px;
+  padding-right: 10px;
   vertical-align: top;
   -webkit-appearance: none;
   -moz-appearance: none;
@@ -2415,13 +2421,13 @@ textarea.form-control-lg {
   filter: brightness(90%);
 }
 .form-check-input:focus {
-  border-color: #86b7fe;
+  border-color: rgb(109, 103, 98);
   outline: 0;
-  box-shadow: 0 0 0 0.25rem rgba(13, 110, 253, 0.25);
+  box-shadow: 0 0 0 0rem rgb(97, 93, 90);
 }
 .form-check-input:checked {
-  background-color: #0d6efd;
-  border-color: #0d6efd;
+  background-color: rgb(109, 103, 98);
+  border-color: rgb(109, 103, 98);
 }
 .form-check-input:checked[type=checkbox] {
   --bs-form-check-bg-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 20 20'%3e%3cpath fill='none' stroke='%23fff' stroke-linecap='round' stroke-linejoin='round' stroke-width='3' d='m6 10 3 3 6-6'/%3e%3c/svg%3e");
@@ -3047,19 +3053,19 @@ textarea.form-control-lg {
 
 .btn-primary {
   --bs-btn-color: #fff;
-  --bs-btn-bg: #0d6efd;
-  --bs-btn-border-color: #0d6efd;
+  --bs-btn-bg: #f2b476;
+  --bs-btn-border-color: #f2b476;
   --bs-btn-hover-color: #fff;
-  --bs-btn-hover-bg: #0b5ed7;
-  --bs-btn-hover-border-color: #0a58ca;
+  --bs-btn-hover-bg: #f2b476;
+  --bs-btn-hover-border-color: #f2b476;
   --bs-btn-focus-shadow-rgb: 49, 132, 253;
   --bs-btn-active-color: #fff;
-  --bs-btn-active-bg: #0a58ca;
-  --bs-btn-active-border-color: #0a53be;
+  --bs-btn-active-bg: #f2b476;
+  --bs-btn-active-border-color: #f2b476;
   --bs-btn-active-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
   --bs-btn-disabled-color: #fff;
-  --bs-btn-disabled-bg: #0d6efd;
-  --bs-btn-disabled-border-color: #0d6efd;
+  --bs-btn-disabled-bg: #6c757d;
+  --bs-btn-disabled-border-color: #6c757d;
 }
 
 .btn-secondary {
@@ -3067,12 +3073,12 @@ textarea.form-control-lg {
   --bs-btn-bg: none;
   --bs-btn-border-color: #fff;
   --bs-btn-hover-color: #fff;
-  --bs-btn-hover-bg: rgb(249, 181, 158);
-  --bs-btn-hover-border-color: rgb(249, 181, 158);
+  --bs-btn-hover-bg: #f2b476;
+  --bs-btn-hover-border-color: #f2b476;
   --bs-btn-focus-shadow-rgb: 130, 138, 145;
   --bs-btn-active-color: #fff;
-  --bs-btn-active-bg: #565e64;
-  --bs-btn-active-border-color: #51585e;
+  --bs-btn-active-bg: #f2b476;
+  --bs-btn-active-border-color: #f2b476;
   --bs-btn-active-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
   --bs-btn-disabled-color: #fff;
   --bs-btn-disabled-bg: #6c757d;
@@ -3182,19 +3188,19 @@ textarea.form-control-lg {
 }
 
 .btn-outline-primary {
-  --bs-btn-color: #0d6efd;
-  --bs-btn-border-color: #0d6efd;
+  --bs-btn-color: rgb(109, 103, 98);
+  --bs-btn-border-color: rgb(109, 103, 98);
   --bs-btn-hover-color: #fff;
-  --bs-btn-hover-bg: #0d6efd;
-  --bs-btn-hover-border-color: #0d6efd;
+  --bs-btn-hover-bg: rgb(109, 103, 98);
+  --bs-btn-hover-border-color: rgb(109, 103, 98);
   --bs-btn-focus-shadow-rgb: 13, 110, 253;
   --bs-btn-active-color: #fff;
-  --bs-btn-active-bg: #0d6efd;
-  --bs-btn-active-border-color: #0d6efd;
+  --bs-btn-active-bg: rgb(109, 103, 98);
+  --bs-btn-active-border-color: rgb(109, 103, 98);
   --bs-btn-active-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
-  --bs-btn-disabled-color: #0d6efd;
+  --bs-btn-disabled-color: rgb(109, 103, 98);
   --bs-btn-disabled-bg: transparent;
-  --bs-btn-disabled-border-color: #0d6efd;
+  --bs-btn-disabled-border-color: rgb(109, 103, 98);
   --bs-gradient: none;
 }
 
@@ -7997,6 +8003,7 @@ textarea.form-control-lg {
 .my-5 {
   margin-top: 3rem !important;
   margin-bottom: 3rem !important;
+  margin-left: 100px;
 }
 
 .my-auto {
