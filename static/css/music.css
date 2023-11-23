@@ -45,7 +45,7 @@
   
   /* Color of the navbar after scroll */
   .navbar-scrolled {
-    background-color: rgb(249, 181, 158);
+    background-color: #f2b476;
     color: #fff;
     font-size: larger;
     font-family: monospace;
@@ -62,7 +62,7 @@
   
   li.navbar-brand > a.nav-link:hover {
       background-color: white;
-      color: rgb(249, 181, 158);
+      color: #f2b476;
   }
   .navbar{
       transition: all 0.5s;
@@ -71,6 +71,7 @@
   @media only screen and (min-width: 992px) {
       .navbar {
         padding: 0;
+        transition: background-color 0.5s ease-out;
       }
       li.navbar-brand > a.nav-link {
         padding: 1em 0.7em;
@@ -82,7 +83,7 @@
   }
 
   .text-center {
-    background-color: rgb(249, 181, 158);
+    background-color: #f2b476;
     color: #fff;
     font-size: large;
     font-family: monospace;
