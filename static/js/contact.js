@@ -13,17 +13,22 @@ function validateForm() {
   let name = document.forms["contactForm"]["inputName"].value;
   let email = document.forms["contactForm"]["inputEmail"].value;
   let phone = document.forms["contactForm"]["inputPhone"].value;
+  let check = document.forms["contactForm"]["check"].checked;
 
   if (name == "") {
-    alert("Name must be filled out");
+    alert("Name must be filled out.");
     window.location.reload();
   }
   else if (email == "") {
-    alert("Email address must be filled out");
+    alert("Email address must be filled out.");
     window.location.reload();
   }
   else if (phone == "") {
-    alert("Phone must be filled out");
+    alert("Phone must be filled out.");
+    window.location.reload();
+  }
+  else if (check !== "checked") {
+    alert("You must check the box.");
     window.location.reload();
   }
   else window.location.assign("./done.html");
